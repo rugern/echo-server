@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "http": "node http.js",
+    "http2": "NODE_DEBUG=http2 node http2.js",
     "grpc": "node grpc.js"
   },
   "author": "",
